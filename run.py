@@ -21,7 +21,7 @@ st.markdown(
 countries = ['Sri Lanka', 'United States',
              'United Kingdom', 'Italy', 'India', 'China']
 country_code = {'Sri Lanka': 'lk', 'United States': 'us',
-                'United Kingdom': 'gb', 'China': 'cn','Australia':'AU', 'France':'FR', 'India': 'in', 'Italy': 'it'}
+                'United Kingdom': 'gb', 'China': 'cn','Australia':'au', 'France':'fr', 'India': 'in', 'Italy': 'it'}
 data_types = ['cases', 'deaths', ]
 
 
