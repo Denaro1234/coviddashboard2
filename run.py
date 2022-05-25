@@ -63,7 +63,7 @@ with st.sidebar.expander("About"):
 
 with st.sidebar.expander("Version"):
     st.write("2.1.5")
-
+st.info('statistics')
 st.line_chart(daily_cases)
 st.line_chart(daily_deaths)
 st.info('You must pick the number of Days for the comparison')
