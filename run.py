@@ -59,7 +59,7 @@ column3.metric('Total recovered', yesterday_recoveries)
 
 
 with st.sidebar.expander("About"):
-         st.write( "Developed by red pndemic beaters of Meu Labs ")
+         st.write( "Developed by red pandemic beaters of Meu Labs ")
 
 with st.sidebar.expander("Version"):
     st.write("2.1.5")
