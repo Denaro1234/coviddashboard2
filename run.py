@@ -28,7 +28,7 @@ data_types = ['cases', 'deaths', ]
 country = st.sidebar.selectbox('Select Country', countries)
 
 days = st.sidebar.slider('Select Days', min_value=1, max_value=90)
-data_type =data_types
+data_type =st.sidebar.multiselect('Data types for a comparison', data_types)
 
 total_cases = get_historic_cases(country, str(days))
 total_deaths = get_historic_deaths(country, str(days))
