@@ -68,7 +68,7 @@ st.line_chart(daily_cases)
 st.line_chart(daily_deaths)
 st.info('You must pick the number of Days for the comparison')
 
-st.line_chart(daily_df[data_type])
+
 st.video('https://www.youtube.com/watch?v=5DGwOJXSxqg')
 
 st.balloons()
